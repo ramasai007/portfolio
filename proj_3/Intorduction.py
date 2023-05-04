@@ -5,7 +5,7 @@ st.title("RAMA SAI   KURETI")
 col1,col2=st.columns(2)
 
 with col1:
-    img_path='my_image.jpg'
+    img_path='./my_image.jpg'
     img=Image.open(img_path)
     st.image(img)
 with col2:
@@ -92,7 +92,7 @@ with col2:
 
         with tab19:
             st.header("Zomato")
-            image=Image.open('tab.jpg')
+            image=Image.open('./tab.jpg')
             st.image(image)
     
     with tab4:
